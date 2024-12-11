@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color-body: #0D1117;
+  --background-color-nav: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color-body);
+  color: var(--text-color);
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color-nav);
+  padding: 20px;
+}
+
+ul {
+  display: none;
+}
+
+.moon {
+  display: none;
+}
+
+.nav-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.pp {
+  background-color: white;
+  border-radius: 50%;
+  height: 13rem;
+  width: 13rem;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.contact {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.git-link{
+    color: gray;
+    text-decoration: none;
+}
+
+button {
+  background-color: #303030;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+}
+
+
+p span{
+    color: gray;
+    font-weight: 700;
+}
+
+
+.sec2{
+    margin-top: 30px;
+    border: solid 3px gray;
+    border-radius: 20px;
+}
+
+.head-sec2{
+    border-radius: 20px 20px 0 0;
+    padding: 15px;
+    background-color: var(--background-color-nav);
+}
+
+.txt-pres{
+    font-size: 13px;
+    padding: 20px;
+    line-height: 35px;
+}
+
+
+h2{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.container-1{
+    background-color: var(--background-color-nav);
+    border: solid 3px gray;
+    border-radius: 20px;
+padding: 20px;
+margin-bottom: 30px ;
+}
+
+.photo-projet-1{
+    border: solid 2px gray;
+    border-radius: 20px;
+    background-color: #0D1117;
+    width: 100%;
+    height: 30vh;
+}
+
+.projet-title-space{
+    margin: 15px;
+}
+
+.projet-title-space span{
+    color: #0078D4;
+}
+
+nav{
+    position: relative;
+}
+
+.pp{
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec1{
+    margin-top: 190px;
+}
